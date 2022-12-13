@@ -1,0 +1,21 @@
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 8%, rgba(119, 119, 119, 1) 59%, rgba(255, 254, 254, 1) 100%);
+}
+
+.relogio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 60px;
+    font-family: monospace;
+    letter-spacing: 7px;
+
+    /* Gradiente na letra */
+    background-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,156,0,1) 25%, rgba(1,255,0,1) 50%, rgba(35,0,255,1) 75%, rgba(255,0,219,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
